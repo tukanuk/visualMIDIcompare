@@ -1,0 +1,5 @@
+# directories 
+venv
+
+# system files
+.DS_Store
