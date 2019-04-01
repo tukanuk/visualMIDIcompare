@@ -6,7 +6,9 @@ VACUUM (Visual Audio Comparison Utilty Understanding Measurement) is an open-sou
 
 The current version of VACUUM 0.1 inspects an audio file, detects small differences in simple audio files and display the results graphically. Future versions will handle the full complexity of our audio files and allows us to quickly compare the effectiveness of our construction techniques.
 
-VACUUM 0.1 is a `Jupyter Notebook` based series of Python scripts that makes use of the `Librosa`, `matplotlib` and `OpenCV` libraries. VACUUM takes advantage of Python virtual environment tool `venv` to make gathering dependencies and installinbg on a new machine simple. 
+VACUUM 0.1 is a `Jupyter Notebook` based series of Python scripts that makes use of the `Librosa`, `matplotlib` and `OpenCV` libraries. VACUUM takes advantage of Python virtual environment tool `venv` to make gathering dependencies and installinbg on a new machine simple.
+
+If you're reading this now you are seeing that I had to hit a deadline and uploaded a messy repository. Sorry that you have to see that! By the time you come back, I'll have the place all cleaned up. 
 
 ## Dependencies
 
@@ -53,13 +55,32 @@ Installation should be pretty straight forward. These instructions are tested on
 
 Now, if I were you, I'd use `venv` or some other virtual environment tool to keep things tidy, but ultimately that's your call
 
-	python3 -m venv venv 		# creates a vritual enviroment called `venv` in the current folder
-	source ./venv/bin/activate  # to activate
+	python3 -m venv venv 				# creates a vritual enviroment called `venv` in the current folder
+	source ./venv/bin/activate  		# to activate
 	
-	pip3 install -r requirements.txt # install all the dependencies 
+	pip3 install -r requirements.txt 	# install all the dependencies 
 
 If you are using a virtual environment of have a fairly clean install of Python on your system, this will likely take several minutes. Make a coffee!
 
- 
+Once that's finished, you should be ready to go so let's start up Jupyter Notebooks
+
+	python3 -m notebook					# start the notebook server
 	
-	deactivate					# don't forget turn off
+From there you should be able to see `VACUUM.ipynb` in the browsers. Click and go!
+	
+	deactivate							# don't forget turn off your venv when you are finished
+
+## Built With
+
+- [Librosa](http://librosa.github.io) - Audio framework
+- [OpenCV](https://opencv.org) - Computer Vision framework
+- [matplotlib](https://matplotlib.org) - Plotting library
+- [Jupyter Notebook](https://jupyter.org) - Creating and sharing live code
+
+## Authors
+
+- **Ben Davidson** - *Initial work* - [web](https://idavidson.ca)
+
+## Acknowledgements
+
+- [Image Difference with OpenCV and Python](https://www.pyimagesearch.com/2017/06/19/image-difference-with-opencv-and-python/) at [pyimagesearch](https://www.pyimagesearch.com) for the OpenCV tutorials
