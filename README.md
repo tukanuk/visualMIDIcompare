@@ -5,9 +5,9 @@
 **[IMPORTANT]** If you're reading this now you are seeing that I had to hit a deadline and uploaded a messy repository. ☺️ Sorry that you have to see that! By the time you come back, I'll have the place all cleaned up I promise. 
 
 
-VACUUM (Visual Audio Comparison Utilty Understanding Measurement) is an open-source tool created for the [Piano Project](http://www.david11n.myweb.cs.uwindsor.ca/60499/w/The_Piano_Project) to aid in the evaluation phase as part of my senior research project. 
+**VACUUM (*Visual Audio Comparison Utilty Understanding Measurement*)** is a silly, barely held together acronym and also an open-source tool created for the evaluation phase of the [Piano Project](http://www.david11n.myweb.cs.uwindsor.ca/60499/w/The_Piano_Project) as part of my senior research project. 
 
-The current version of VACUUM 0.1 inspects an audio file, detects small differences in simple audio files and display the results graphically. Future versions will handle the full complexity of our audio files and allows us to quickly compare the effectiveness of our construction techniques.
+The current version of VACUUM 0.1 inspects audio files and is able to detect small differences in simple audio files and display the results graphically. Future versions will handle the full complexity of our audio files and allows us to quickly compare the effectiveness of our construction techniques.
 
 VACUUM 0.1 is a `Jupyter Notebook` based series of Python scripts that makes use of the `Librosa`, `matplotlib` and `OpenCV` libraries. VACUUM takes advantage of Python virtual environment tool `venv` to make gathering dependencies and installinbg on a new machine simple.
 
