@@ -1,5 +1,0 @@
-# Tool, libraries and framrworks needed in development environment
-
-# First, load the basic requirements
-
--r requirements.txt

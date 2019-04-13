@@ -9,6 +9,8 @@
 
 The current version of VACUUM 0.1 inspects audio files and is able to detect small differences in simple audio files and display the results graphically. Future versions will handle the full complexity of our audio files and allows us to quickly compare the effectiveness of our construction techniques.
 
+For more information on the operation and capabilities of VACUUM visit the [project page](http://www.david11n.myweb.cs.uwindsor.ca/60499/w/VACUUM). 
+
 VACUUM 0.1 is a `Jupyter Notebook` based series of Python scripts that makes use of the `Librosa`, `matplotlib` and `OpenCV` libraries. VACUUM takes advantage of Python virtual environment tool `venv` to make gathering dependencies and installinbg on a new machine simple.
 
 ## Dependencies
@@ -16,7 +18,7 @@ VACUUM 0.1 is a `Jupyter Notebook` based series of Python scripts that makes use
 Like most Python scripts that use even a a single library, VACUUM has a long list of dependencies – *good thing for* `venv` *and a* `Requirements.txt`! Development and testing was done on Python 3.7 but it should work without problem on anything 3.4+.
 
 |                                     |                                          |                           |
-| :---------------------------------: | :--------------------------------------: | :-----------------------: |
+| :---------------------------------  |  --------------------------------------  |  -----------------------  |
 |           appnope==0.1.0            |            jupyter-core==4.4.0           |      pycparser==2.19      |
 |           astroid==2.2.5            |  jupyter-highlight-selected-word==0.2.0  |       pygame==1.9.4       |
 |            attrs==19.1.0            |         jupyter-latex-envs==1.4.6        |      Pygments==2.3.1      |
@@ -33,12 +35,12 @@ Like most Python scripts that use even a a single library, VACUUM has a long lis
 |          entrypoints==0.3           |             nbconvert==5.4.1             |    scikit-learn==0.20.3   |
 |           imutils==0.5.2            |              nbformat==4.4.0             |        scipy==1.2.1       |
 |          ipykernel==5.1.0           |               networkx==2.2              |     Send2Trash==1.5.0     |
-|           ipython==7.4.0            |              notebook==5.7.6             |        six==1.12.0        |
+|           ipython==7.4.0            |              notebook==5.7.8             |        six==1.12.0        |
 |       ipython-genutils==0.2.0       |               numba==0.43.1              |     SoundFile==0.10.2     |
 |          ipywidgets==7.4.2          |               numpy==1.16.2              |      terminado==0.8.1     |
 |            isort==4.3.16            |      opencv-contrib-python==4.0.0.21     |      testpath==0.4.2      |
 |            jedi==0.13.3             |           pandocfilters==1.4.2           |        toolz==0.9.0       |
-|            Jinja2==2.10             |               parso==0.3.4               |       tornado==6.0.2      |
+|            Jinja2==2.10.1           |               parso==0.3.4               |       tornado==6.0.2      |
 |           joblib==0.13.2            |              pexpect==4.6.0              |      traitlets==4.3.2     |
 |          jsonschema==3.0.1          |            pickleshare==0.7.5            |      typed-ast==1.3.1     |
 |           jupyter==1.0.0            |               Pillow==5.4.1              |       wcwidth==0.1.7      |

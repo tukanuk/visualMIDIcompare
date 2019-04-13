@@ -1,5 +1,6 @@
 # directories 
 venv
+imageDiff
 
 # system files
 .DS_Store
