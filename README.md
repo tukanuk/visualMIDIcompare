@@ -2,9 +2,6 @@
 
 # VACUUM 0.1
 
-**[IMPORTANT]** If you're reading this now you are seeing that I had to hit a deadline and uploaded a messy repository. ☺️ Sorry that you have to see that! By the time you come back, I'll have the place all cleaned up I promise. 
-
-
 **VACUUM (*Visual Audio Comparison Utilty Understanding Measurement*)** is a silly, barely held together acronym and also an open-source tool created for the evaluation phase of the [Piano Project](http://www.david11n.myweb.cs.uwindsor.ca/60499/w/The_Piano_Project) as part of my senior research project. 
 
 The current version of VACUUM 0.1 inspects audio files and is able to detect small differences in simple audio files and display the results graphically. Future versions will handle the full complexity of our audio files and allows us to quickly compare the effectiveness of our construction techniques.
@@ -58,20 +55,26 @@ Installation should be pretty straight forward. These instructions are tested on
 
 Now, if I were you, I'd use `venv` or some other virtual environment tool to keep things tidy, but ultimately that's your call
 
-	python3 -m venv venv 				# creates a vritual enviroment called `venv` in the current folder
-	source ./venv/bin/activate  		# to activate
+	# creates a vritual enviroment called `venv` in the current folder
+	python3 -m venv venv 				
+
+	# to activate
+	source ./venv/bin/activate  		
 	
-	pip3 install -r requirements.txt 	# install all the dependencies 
+	# install all the dependencies 
+	pip3 install -r requirements.txt
 
 If you are using a virtual environment of have a fairly clean install of Python on your system, this will likely take several minutes. Make a coffee!
 
 Once that's finished, you should be ready to go so let's start up Jupyter Notebooks
 
-	python3 -m notebook					# start the notebook server
+	# start the notebook server
+	python3 -m notebook
 	
 From there you should be able to see `VACUUM.ipynb` in the browsers. Click and go!
 	
-	deactivate							# don't forget turn off your venv when you are finished
+	# don't forget turn off your venv when you are finished
+	deactivate
 
 ## Built With
 
