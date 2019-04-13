@@ -1,4 +1,4 @@
-![](VACUUM_banner.png)
+![](images/VACUUM_banner.png)
 
 # VACUUM 0.1
 
